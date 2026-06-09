@@ -810,7 +810,8 @@ async function loadData() {
     STATE.taskConfig = tasksRes.config;
     STATE.sessionId = generateSessionId();
     var url = new URL(window.location.href);
-    STATE.campaign = url.searchParams.get('session') || 'default';
+    // v1.3 (09/06/2026) — campagna default cambiata da 'default' a 'ufficiale' dopo archivio sessioni preliminare
+    STATE.campaign = url.searchParams.get('session') || url.searchParams.get('campaign') || 'ufficiale';
     show('welcome');
   } catch (e) {
     console.error(e);

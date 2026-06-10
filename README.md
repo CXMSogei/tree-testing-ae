@@ -2,9 +2,9 @@
 
 Piattaforma di tree testing per la nuova architettura informativa del portale Agenzia delle Entrate.
 
-**Owner:** CXMSogei (migrato da roccajoe il 09/06/2026)  
-**App partecipante:** https://cxmsogei.github.io/tree-testing-ae/  
-**Dashboard admin:** https://cxmsogei.github.io/tree-testing-ae/admin.html  
+**Owner:** sogei-design (migrato da roccajoe il 09/06/2026)  
+**App partecipante:** https://sogei-design.github.io/tree-testing-ae/  
+**Dashboard admin:** https://sogei-design.github.io/tree-testing-ae/admin.html  
 
 ## Stack
 - Frontend: HTML/CSS/JS vanilla, design tokens Sogei AE (#323232, #fab600, Titillium Web)
